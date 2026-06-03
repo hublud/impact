@@ -4,6 +4,7 @@ import AboutUsBrief from "@/components/AboutUsBrief";
 import About from "@/components/About";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Products from "@/components/Products";
+import VideoShowcase from "@/components/VideoShowcase";
 import Gallery from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
 import DistributorCTA from "@/components/DistributorCTA";
@@ -101,6 +102,9 @@ export default function Home() {
 
         {/* Section 4 - Products */}
         <Products />
+
+        {/* Video Showcase Section */}
+        <VideoShowcase />
 
         {/* Section 5 - Gallery */}
         <Gallery />
