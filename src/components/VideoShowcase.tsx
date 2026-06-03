@@ -102,12 +102,12 @@ export default function VideoShowcase() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="relative aspect-video w-full rounded-3xl overflow-hidden shadow-2xl bg-slate-900 border border-slate-100 group"
+          className="relative w-full max-w-[420px] mx-auto rounded-[32px] overflow-hidden shadow-2xl bg-slate-900 border border-slate-100 group"
         >
           <video
             ref={videoRef}
             src="/images/operations-showcase.mp4"
-            className="w-full h-full object-cover cursor-pointer"
+            className="w-full h-auto block object-contain cursor-pointer"
             loop
             muted
             playsInline
@@ -139,16 +139,6 @@ export default function VideoShowcase() {
             >
               {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
             </button>
-          </div>
-
-          {/* Bottom Title bar */}
-          <div className="absolute bottom-6 left-6 text-left text-white hidden md:block">
-            <span className="text-[10px] text-gold-accent font-semibold tracking-widest uppercase block mb-0.5">
-              Impact Grains Showcase
-            </span>
-            <p className="text-sm font-medium tracking-wide">
-              Empowering Local Agriculture & Distribution
-            </p>
           </div>
         </motion.div>
 
