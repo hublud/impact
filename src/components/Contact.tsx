@@ -148,12 +148,11 @@ export default function Contact() {
             <div className="flex flex-col gap-6">
               
               {/* Address Card */}
-              <div className="flex gap-5 p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-slate-200 transition-colors group">
-                <div className="p-3.5 rounded-xl bg-primary-green/10 text-primary-green group-hover:bg-primary-green group-hover:text-white transition-all duration-300 flex-shrink-0 self-start">
+              <div className="flex gap-5 p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-slate-200 transition-colors group items-center">
+                <div className="p-3.5 rounded-xl bg-primary-green/10 text-primary-green group-hover:bg-primary-green group-hover:text-white transition-all duration-300 flex-shrink-0">
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-display font-bold text-sm text-dark-text mb-2">Our Office</h4>
                   <p className="text-sm text-secondary-text leading-relaxed font-light">
                     1075 Joseph Gomwalk Street,<br />
                     Gudu, Abuja,<br />
@@ -163,12 +162,11 @@ export default function Contact() {
               </div>
 
               {/* Phone Card */}
-              <div className="flex gap-5 p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-slate-200 transition-colors group">
-                <div className="p-3.5 rounded-xl bg-primary-green/10 text-primary-green group-hover:bg-primary-green group-hover:text-white transition-all duration-300 flex-shrink-0 self-start">
+              <div className="flex gap-5 p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-slate-200 transition-colors group items-center">
+                <div className="p-3.5 rounded-xl bg-primary-green/10 text-primary-green group-hover:bg-primary-green group-hover:text-white transition-all duration-300 flex-shrink-0">
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-display font-bold text-sm text-dark-text mb-2">Call Us</h4>
                   <p className="text-sm text-secondary-text leading-relaxed font-light">
                     <a href="tel:+2349164655254" className="hover:text-primary-green transition-colors">
                       +234 916 465 5254
@@ -178,12 +176,11 @@ export default function Contact() {
               </div>
 
               {/* Email Card */}
-              <div className="flex gap-5 p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-slate-200 transition-colors group">
-                <div className="p-3.5 rounded-xl bg-primary-green/10 text-primary-green group-hover:bg-primary-green group-hover:text-white transition-all duration-300 flex-shrink-0 self-start">
+              <div className="flex gap-5 p-6 rounded-2xl bg-slate-50 border border-slate-100 hover:border-slate-200 transition-colors group items-center">
+                <div className="p-3.5 rounded-xl bg-primary-green/10 text-primary-green group-hover:bg-primary-green group-hover:text-white transition-all duration-300 flex-shrink-0">
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-display font-bold text-sm text-dark-text mb-2">Email Address</h4>
                   <p className="text-sm text-secondary-text leading-relaxed font-light">
                     <a href="mailto:impact@impactgrains.com" className="hover:text-primary-green transition-colors">
                       impact@impactgrains.com

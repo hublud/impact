@@ -146,7 +146,7 @@ export default function Products() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
           
           {/* Info left side */}
-          <div className="lg:col-span-7 order-2 lg:order-1">
+          <div className="lg:col-span-7">
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -193,6 +193,23 @@ export default function Products() {
               ))}
             </motion.div>
 
+            {/* Photo on mobile: below the list, above the button */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.8 }}
+              className="block lg:hidden w-full max-w-[400px] aspect-[4/5] rounded-3xl overflow-hidden shadow-xl group border border-slate-150 relative mb-8 mx-auto"
+            >
+              <Image
+                src="/images/by-products.jpg"
+                alt="Rice By-Products Processing"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-103"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 to-transparent" />
+            </motion.div>
+
             {/* CTA to Distributor */}
             <motion.button
               onClick={() => handleScrollToSection("contact")}
@@ -207,13 +224,13 @@ export default function Products() {
             </motion.button>
           </div>
 
-          {/* Photo right side */}
+          {/* Photo right side (desktop only) */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="lg:col-span-5 order-1 lg:order-2 flex justify-center"
+            className="lg:col-span-5 hidden lg:flex justify-center"
           >
             <div className="relative w-full max-w-[400px] aspect-[4/5] rounded-3xl overflow-hidden shadow-xl group border border-slate-150">
               <Image
