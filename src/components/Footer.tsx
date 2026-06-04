@@ -147,7 +147,7 @@ export default function Footer() {
         {/* Divider & Copyright */}
         <div className="border-t border-slate-900 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-500 font-light text-center sm:text-left">
-            © 2026 Impact Grains. All Rights Reserved. Abuja, Nigeria.
+            © 2026 Impact Grains. All Rights Reserved.
           </p>
           
           {/* Scroll back to top */}
