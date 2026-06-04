@@ -7,7 +7,6 @@ import { X, ZoomIn } from "lucide-react";
 
 const galleryItems = [
   { src: "/images/gallery.jpg", alt: "Empire Rice Raw Grains", title: "Premium Grains Selection" },
-  { src: "/images/gallery 3.jpg", alt: "Rich Grain Storage Facilities", title: "Silo Stocking & Quality" },
   { src: "/images/gallery 4.jpg", alt: "Stone-Free Parboiling Inspection", title: "Hygienic Sieve Control" },
   { src: "/images/gallery 5.jpg", alt: "Fresh Agricultural Farmland", title: "Responsible Agriculture" },
   { src: "/images/gallery 6.jpg", alt: "Hygienic Grain Processing Plant", title: "Milling Facility Processing" },
