@@ -81,7 +81,7 @@ export default function Products() {
           >
             <div className="relative w-full max-w-[400px] aspect-[4/5] rounded-3xl overflow-hidden bg-slate-50 border border-slate-100 shadow-xl group">
               <Image
-                src="/images/empire-rice-new.jpg"
+                src="/images/empire rice.webp"
                 alt="Empire Rice Parboiled Bag"
                 fill
                 className="object-contain p-6 transition-transform duration-500 group-hover:scale-103"
