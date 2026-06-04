@@ -19,7 +19,7 @@ const stats = [
   {
     icon: CheckCircle2,
     title: "Trusted Distribution",
-    desc: "Across Abuja and major markets",
+    desc: "Across major markets in Nigeria and beyond",
   },
 ];
 

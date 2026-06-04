@@ -66,7 +66,7 @@ export default function DistributorCTA() {
           transition={{ delay: 0.2 }}
           className="text-base sm:text-lg text-slate-100/90 leading-relaxed font-light max-w-2xl mb-10"
         >
-          Join our growing network of trusted partners delivering premium parboiled rice and agricultural by-products across Abuja and sub-Saharan Africa. We support your business with reliable volumes, premium product quality, and direct marketing assistance.
+          Join our growing network of trusted partners delivering premium parboiled rice and agricultural by-products across major markets in Nigeria and beyond. We support your business with reliable volumes, premium product quality, and direct marketing assistance.
         </motion.p>
 
         {/* Button */}
