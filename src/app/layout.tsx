@@ -47,10 +47,10 @@ export const metadata: Metadata = {
     siteName: "Impact Grains",
     images: [
       {
-        url: "/images/sliders-1.jpg",
+        url: "https://impactgrains.com/images/empire-rice-og.webp",
         width: 1200,
         height: 630,
-        alt: "Impact Grains Rice Field",
+        alt: "Empire Rice - Premium Parboiled Rice by Impact Grains",
       },
     ],
     locale: "en_US",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Impact Grains - Transforming Africa's Food Future",
     description: "Impact Grains delivers premium, stone-free parboiled rice across Africa. We partner with local farmers and distributors to secure a sustainable food future.",
-    images: ["/images/sliders-1.jpg"],
+    images: ["https://impactgrains.com/images/empire-rice-og.webp"],
   },
 };
 
