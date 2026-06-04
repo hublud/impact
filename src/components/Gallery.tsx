@@ -10,14 +10,14 @@ const galleryItems = [
   { src: "/images/gallery.jpg", alt: "Empire Rice Raw Grains", title: "Premium Grains Selection" },
   { src: "/images/gallery 5.jpg", alt: "Fresh Agricultural Farmland", title: "Responsible Agriculture" },
   { src: "/images/gallery-10.jpg", alt: "Sealed bags of Empire Rice prepared for dispatch", title: "Distribution Ready Stocks" },
-  { src: "/images/gallery-9.jpg", alt: "Precision sorting of processed parboiled long grain rice", title: "Quality Control & Sorting" },
   { src: "/images/gallery 6.jpg", alt: "Hygienic Grain Processing Plant", title: "Milling Facility Processing" },
-  { src: "/images/gallery 7.jpg", alt: "Premium Quality Testing", title: "Purity & Density Assured" },
-  { src: "/images/gallery-13.jpg", alt: "Testing grain hardness and moisture level parameters", title: "Moisture & Texture Testing" },
+  { src: "/images/gallery-14.jpg", alt: "Loading bulk distribution orders for regional partners", title: "Logistics Fleet Transport" },
+  { src: "/images/gallery-9.jpg", alt: "Precision sorting of processed parboiled long grain rice", title: "Quality Control & Sorting" },
   { src: "/images/gallery 8.jpg", alt: "Local Community Farmer Teams", title: "Community Farmer Partners" },
   { src: "/images/gallery-11.jpg", alt: "Local field sourcing and community grain collection", title: "Harvest & Field Operations" },
-  { src: "/images/gallery-14.jpg", alt: "Loading bulk distribution orders for regional partners", title: "Logistics Fleet Transport" },
+  { src: "/images/gallery 7.jpg", alt: "Premium Quality Testing", title: "Purity & Density Assured" },
   { src: "/images/gallery-12.jpg", alt: "De-husking and polishing process within the mill", title: "Modern Milling Automation" },
+  { src: "/images/gallery-13.jpg", alt: "Testing grain hardness and moisture level parameters", title: "Moisture & Texture Testing" },
 ];
 
 export default function Gallery() {
