@@ -110,7 +110,7 @@ export default function Footer() {
               Our Products
             </h4>
             <ul className="flex flex-col gap-2.5 text-sm font-light text-slate-400">
-              <li>Empire Rice parboiled (long-grain)</li>
+              <li>Empire Parboiled Rice</li>
               <li>Reject Rice by-products</li>
               <li>Broken Rice grains</li>
               <li>Rice Bran animal feed</li>

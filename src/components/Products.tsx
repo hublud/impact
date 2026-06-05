@@ -162,7 +162,7 @@ export default function Products() {
               transition={{ delay: 0.1 }}
               className="font-display text-3xl font-bold text-dark-text mb-5"
             >
-              Rice By-Products
+              Rice by Products
             </motion.h3>
             <motion.p
               initial={{ opacity: 0, y: 15 }}

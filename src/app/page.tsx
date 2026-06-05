@@ -77,12 +77,6 @@ export default function Home() {
 
   return (
     <>
-      {/* Inject Structured Data for SEO */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}
-      />
-
       {/* Navigation */}
       <Navbar />
 
@@ -117,6 +111,12 @@ export default function Home() {
 
         {/* Section 8 - Contact */}
         <Contact />
+
+        {/* Inject Structured Data for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}
+        />
       </main>
 
       {/* Footer */}
