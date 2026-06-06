@@ -92,7 +92,7 @@ export default function VideoShowcase() {
             transition={{ delay: 0.2 }}
             className="text-base text-secondary-text leading-relaxed font-light"
           >
-            Watch how our local smallholder farmer partners, modern parboiling facilities, and strict quality control processes deliver stone-free long grain parboiled rice to markets across Nigeria.
+            Watch how our local smallholder farmer partners, modern parboiling facilities, and strict quality control processes deliver stone-free long grain parboiled rice to markets across Africa.
           </motion.p>
         </div>
 

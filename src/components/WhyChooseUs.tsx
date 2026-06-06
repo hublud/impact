@@ -101,7 +101,7 @@ export default function WhyChooseUs() {
             transition={{ delay: 0.3 }}
             className="text-sm font-semibold text-primary-green mt-4 border-l-2 border-primary-green pl-4 italic"
           >
-            "Our commitment is to deliver high-quality Nigerian rice for a delightful dining experience."
+            "Our commitment is to deliver high-quality rice for a delightful dining experience."
           </motion.p>
         </div>
 
