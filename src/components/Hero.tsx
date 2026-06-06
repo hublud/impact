@@ -19,7 +19,7 @@ const stats = [
   {
     icon: CheckCircle2,
     title: "Trusted Distribution",
-    desc: "Across major markets in Africa and beyond",
+    desc: "Across major markets in Africa",
   },
 ];
 
